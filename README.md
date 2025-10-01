@@ -60,5 +60,5 @@ Ensure the input file (train_FD001.txt) is in the data/raw/ folder.
 
 🔵Run the notebook:
 
-1. Execute all cells in notebooks/1_data_prep_and_feature_engineering.ipynb
+1. Execute all cells in notebooks/1.0_data_prep.ipynb
 2. Output: data/processed/train_FD001_processed.csv
