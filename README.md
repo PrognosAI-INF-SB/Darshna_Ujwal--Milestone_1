@@ -14,7 +14,7 @@ Milestone 1: Data Ingestion & Preprocessing (Completed)
 4. Scale features using Min-Max Scaler
 
 
--> Project Workflow Overview
+📝Project Workflow Overview
 The overall project is structured around five key milestones:
 1. Data Ingestion & Preprocessing (Completed)
 
@@ -28,17 +28,15 @@ The overall project is structured around five key milestones:
 
 📁 Project Structure
 PrognosAI/
-├── data/
-│   ├── raw/                      # Contains original, untouched dataset files.
-│   │   └── train_FD001.txt
-│   └── processed/                # Stores cleaned and feature-engineered CSV (output of M1).
-│
-├── notebooks/                    # Jupyter/Colab notebooks for development.
-│   └── 1.0_data_prep.ipynb
-│
-├── README.md                     # This file.
-├── requirements.txt              # List of all Python dependencies.
-└── .gitignore                    # Specifies files to ignore (e.g., large data outputs, environment files).
+-data/
+  -raw/                      # Contains original, untouched dataset files.
+    -train_FD001.txt
+  -processed/                # Stores cleaned and feature-engineered CSV (output of M1).
+-notebooks/                    # Jupyter/Colab notebooks for development.
+  -1.0_data_prep.ipynb
+-README.md                     # This file.
+-requirements.txt              # List of all Python dependencies.
+-.gitignore                    # Specifies files to ignore (e.g., large data outputs, environment files).
 
 ⚙️ Getting Started
 1. Prerequisites
@@ -56,15 +54,12 @@ cd PrognosAI
 - pip install -r requirements.txt
 
 
-* Running the Milestone 1 Pipeline
+🟡Running the Milestone 1 Pipeline
 To process the raw data and generate the output file:
 
 Ensure the input file (train_FD001.txt) is in the data/raw/ folder.
 
-Run the notebook:
+🔵Run the notebook:
 
-# Execute all cells in notebooks/1_data_prep_and_feature_engineering.ipynb
-# Output: data/processed/train_FD001_processed.csv
-
-🤝 Next Steps
-The next step is to move to Milestone 2: Sequence Generation to prepare the data for the LSTM mo
+1. Execute all cells in notebooks/1_data_prep_and_feature_engineering.ipynb
+2. Output: data/processed/train_FD001_processed.csv
