@@ -27,16 +27,16 @@ The overall project is structured around five key milestones:
 5. Visualization & Dashboard: Implement alerts and visualization.
 
 📁 Project Structure
-PrognosAI/
--data/
-  -raw/                      # Contains original, untouched dataset files.
-    -train_FD001.txt
-  -processed/                # Stores cleaned and feature-engineered CSV (output of M1).
--notebooks/                    # Jupyter/Colab notebooks for development.
-  -1.0_data_prep.ipynb
--README.md                     # This file.
--requirements.txt              # List of all Python dependencies.
--.gitignore                    # Specifies files to ignore (e.g., large data outputs, environment files).
+- PrognosAI/
+   - data/
+      - raw/                  # Contains original, untouched dataset files.
+          - train_FD001.txt
+      - processed/            # Stores cleaned and feature-engineered CSV (output of M1).
+   - notebooks/                # Jupyter/Colab notebooks for development.
+      - 1.0_data_prep.ipynb
+- README.md                 # Project summary and installation guide.
+- requirements.txt          # List of all Python dependencies.
+- .gitignore                # Specifies files to ignore (e.g., large data outputs, environment files).
 
 ⚙️ Getting Started
 1. Prerequisites
