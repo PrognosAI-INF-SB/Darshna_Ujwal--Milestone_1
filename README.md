@@ -45,8 +45,7 @@ You need Python 3.8+ installed on your system.
 2. Installation
 - Clone the Repository:
 
-- git clone [https://github.com/YOUR_USERNAME/PrognosAI.git](https://github.com/YOUR_USERNAME/PrognosAI.git)
-cd PrognosAI
+- git clone [https://github.com/PrognosAI-INF-SB/Darshna_Ujwal--Milestone_1.git](https://github.com/PrognosAI-INF-SB/Darshna_Ujwal--Milestone_1.git) cd Darshna_Ujwal--Milestone_1
 
 3. Install Dependencies:
 - Install all required packages listed in requirements.txt.
