@@ -1,4 +1,4 @@
-PrognosAI: AI-Driven Predictive Maintenance System
+# PrognosAI: AI-Driven Predictive Maintenance System
 
 🚀 Project Overview
 PrognosAI is a deep learning project dedicated to estimating the Remaining Useful Life (RUL) of industrial machinery using multivariate time-series sensor data. Prototyped using the NASA Commercial Modular Aero-Propulsion System Simulation (CMAPSS) dataset (specifically the FD001 subset), this system aims to recognize sequential degradation patterns and enable timely maintenance decisions.
